@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: rgb(50, 56, 61);
     padding: 40px 0px 15px 0px;
@@ -15,15 +16,15 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #103f44;
+    color:  rgb(50, 56, 61);
     background-color: #39a6b2;
     padding: 10px 12px 5px 60px;
     border-radius: 0px 5px 5px 0px;
 }
-
+/* Navigation */
 header nav {
     padding: 20px 60px 20px 12px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 header nav ul {
@@ -39,24 +40,43 @@ header nav ul li a {
     font-size: 25px;
 }
 
+/* Jumbotron */
+.hero {
+    height: 600px;
+    background-image: url("../images/swiss.JPG");    
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;    
+}
+
+#hero-text {
+    margin: 25px 0px;
+    color:  rgb(50, 56, 61);
+    background-color: #39a6b2;
+    padding: 10px 12px 5px 12px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-style: bold;
+    
+    
+}
+
+/* About Me */
 #about-me {
+    height: 2000px;
     background: orange;
     display: flex;
     justify-content: space-around;
 }
 
-.hero {
-    background-image: url("../images/swiss.JPG");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#hero-text {
-    margin: 25px 50px;
-}
-
+/* Word Section */
 #work {
     display: flex;
     justify-content: space-around;
@@ -95,6 +115,7 @@ div main {
     background: lightslategray;
 }
 
+/* Contact Me */
 footer {
     background: brown;
     height: 150px;
