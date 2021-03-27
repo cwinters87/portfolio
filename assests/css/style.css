@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(50, 56, 61);
+    padding: 40px 0px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #103f44;
+    background-color: #39a6b2;
+    padding: 10px 12px 5px 60px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+header nav {
+    padding: 20px 60px 20px 12px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    color: #39a6b2;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#about-me {
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    background: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-text {
+    margin: 25px 50px;
+}
+
+#work {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    background: purple;
+    height: 100px;
+}
+
+div main {
+    display: flex;
+}
+
+.work-item {
+    height: 100px;
+}
+
+#section-1 {
+    background: green;
+}
+
+#section-2 {
+    background: blue;
+}
+
+#section-3 {
+    background: yellow;
+}
+
+#section-4 {
+    background: lightpink;
+}
+
+#section-5 {
+    background: lightslategray;
+}
+
+footer {
+    background: brown;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
