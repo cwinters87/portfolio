@@ -46,7 +46,9 @@ header nav ul li a {
 }
 
 .hero {
-    background: yellow;
+    background-image: url("../images/swiss.JPG");
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: flex-end;
 }
