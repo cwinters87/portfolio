@@ -96,7 +96,7 @@ header nav ul li a {
 
 #about-me div p {
     color: rgb(50, 56, 61);
-    font-size: 18px;
+    font-size: 24px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -146,6 +146,7 @@ aside h2 {
     border-color: #39a6b2;
     display: flex;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .work-item p {
@@ -158,8 +159,13 @@ aside h2 {
     border-radius: 0px 15px 15px 0px;
 }
 
+.work-item p span {
+    font-size: 12px;
+}
+
 #section-1 {
-    background: green;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
     width: 750px;
     height: 400px;
 }
