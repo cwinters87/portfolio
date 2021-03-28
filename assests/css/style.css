@@ -31,6 +31,7 @@ header nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    padding-right: 80px;
 }
 
 header nav ul li a {
@@ -38,6 +39,11 @@ header nav ul li a {
     padding: 0px 15px;
     font-weight: bold;
     font-size: 25px;
+}
+
+header nav ul li a:hover {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 /* Jumbotron */
@@ -147,6 +153,11 @@ aside h2 {
     display: flex;
     align-items: flex-end;
     cursor: pointer;
+    border-radius: 15px;
+}
+
+.work-item:hover {
+    border-color: white;
 }
 
 .work-item p {
@@ -198,10 +209,42 @@ aside h2 {
 
 /* Contact Me */
 footer {
-    background: brown;
-    height: 150px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
+.contact-me {
+    width: 25%;
+    height: 94%;
+    color: rgb(50, 56, 61);
+    border-right-style: solid;
+    border-color: rgb(50, 56, 61); 
+}
+
+footer h3 {
+    text-align: right;    
+    color: rgb(50, 56, 61);
+    font-weight: bold;
+    font-size: 54px;
+    padding-right: 12px;
+}
+
+.contact-info ul {
+    list-style: none;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    color: #39a6b2;
+    padding: 0px 300px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-info ul li {
+    padding: 12px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: #39a6b2;
+}
