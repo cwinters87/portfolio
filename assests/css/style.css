@@ -42,9 +42,9 @@ header nav ul li a {
 
 /* Jumbotron */
 .hero {
-    height: 600px;
+    height: 800px;
     background-image: url("../images/swiss.JPG");    
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -71,12 +71,16 @@ header nav ul li a {
 #about-me {
     height: 350px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-.about-me {
-    width: 50%;
+#about-me-1 {
+    width: 25%;
+}
+
+#about-me-2 {
+    width: 75%;
 }
 
 #about-me div h2 {
@@ -86,55 +90,79 @@ header nav ul li a {
     color: rgb(50, 56, 61);
     border-right-style: solid;
     border-color: rgb(50, 56, 61);
-    margin-right: 50%;
-    margin-left: 25%;
     text-align: right;
-    padding: 10px;
 }
 
 #about-me div p {
     color: rgb(50, 56, 61);
     font-size: 18px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Word Section */
 #work {
     display: flex;
-    justify-content: space-around;
+    height: 1200px;
 }
 
 aside {
-    background: purple;
-    height: 100px;
+    font-weight: bold;
+    font-size: 54px;
+    width: 25%;
+    height: 90%;
+    color: rgb(50, 56, 61);
+    border-right-style: solid;
+    border-color: rgb(50, 56, 61);
+    text-align: right;    
 }
 
-div main {
+#work article {
+    margin: auto;
+}
+
+#work article main {
     display: flex;
 }
 
-.work-item {
-    height: 100px;
+.main-class {
+    justify-content: space-between;
+}
+
+#work article main {
+    margin: 25px auto;
 }
 
 #section-1 {
     background: green;
+    width: 750px;
+    height: 500px;
 }
 
 #section-2 {
     background: blue;
+    width: 350px;
+    height: 200px;
 }
 
 #section-3 {
     background: yellow;
+    width: 350px;
+    height: 200px;
+
 }
 
 #section-4 {
     background: lightpink;
+    width: 350px;
+    height: 200px;
+
 }
 
 #section-5 {
     background: lightslategray;
+    width: 350px;
+    height: 200px;
 }
 
 /* Contact Me */
