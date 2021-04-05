@@ -9,5 +9,5 @@ https://cwinters87.github.io/cwinters87/
 
 ##  Here is what it should render as
 
-![portfolio](./assests/images/portpage1.png)
+![portfolio](./assests/images/portpagemain.png)
 ![portfolio2](./assests/images/portpage2.png)
