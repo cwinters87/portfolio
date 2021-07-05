@@ -175,7 +175,7 @@ aside h2 {
 }
 
 #section-1 {
-    background-image: url("../images/hero-bg.jpg");
+    background: purple;
     background-size: cover;
     width: 750px;
     height: 400px;
